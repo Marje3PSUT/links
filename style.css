@@ -10,25 +10,27 @@ a{
 }
 body{
     height: 100vh;
-    display: grid;
-    place-items: center;
     background: #0f1729;
     font-family: 'Nunito', sans-serif;
 }
 .container{
-    width: 30em;
+    width: 70%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
 }
 .head__section img{
     display: block;
     margin: 0 auto;
-    height: 5rem;
-    width: 5rem;
+    height: 8rem;
+    width: 8rem;
     object-fit: cover;
     border-radius: 50%;
 }
-.head__section p{
+.head__section h2{
     text-align: center;
     color: #fff;
+    margin-top: 1rem;
 }
 .social__links ul li{
     width: 100%;
@@ -103,7 +105,8 @@ body{
 
 
 @media only screen and (max-width: 549px) {
-    .container{
-        width: 88vw;
-    }
+  .container{
+    width: 100%;
+    padding: 2rem 16px;
   }
+}
